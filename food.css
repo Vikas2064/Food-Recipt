@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding:0px ;
+  }
+  #container{
+    height: 60vh;
+    width: auto;
+    background-image: url(https://images.pexels.com/photos/2725744/pexels-photo-2725744.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ .make_lin li{
+   list-style-type:none ;
+   display: inline;
+   margin: 1.2rem;
+ }
+.make_lin{
+   display: flex;
+   flex-wrap: wrap;
+}
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#all{
+   display: flex;
+   flex-wrap: wrap;
+   margin-left: 1rem;
+  justify-content: center;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.centerSearchbar{
+  display: flex;
+  justify-content: center;
+  }
